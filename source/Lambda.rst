@@ -2,7 +2,7 @@
 Lambda
 ======
 
-1. Don't use lambda with anonymously
+1. Don't use lambda with anonymously.
 
 
 * Dont'
