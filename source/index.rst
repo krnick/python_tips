@@ -8,7 +8,11 @@ be used during development.
    :maxdepth: 2
    :caption: Contents:
 
+   Class
+   Decorator
    Function
+   Lambda
+
 
 
 
