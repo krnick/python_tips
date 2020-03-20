@@ -2,7 +2,7 @@ Welcome to python_tips's documentation!
 =======================================
 
 Document the best practice in python that may
-be used during development
+be used during development.
 
 .. toctree::
    :maxdepth: 2
