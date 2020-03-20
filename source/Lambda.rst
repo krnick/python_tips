@@ -11,3 +11,8 @@ Lambda
 
     f = lambda x: 2 * x
 
+* Good
+
+.. code-block:: python
+
+    def fun(x): return 2 * x
