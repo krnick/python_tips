@@ -3,7 +3,7 @@ Function
 ========
 
 1. Do not use mutable objects as an argument
-
+=================================================
 
 * Don't
 .. code-block:: python

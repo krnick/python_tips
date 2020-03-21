@@ -10,8 +10,11 @@ be used during development.
 
    Class
    Decorator
+   Exception
    Function
    Lambda
+   Pep8
+
 
 
 
