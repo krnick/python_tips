@@ -13,6 +13,8 @@ be used during development.
    Exception
    Function
    Lambda
+   List
+   Loop
    Pep8
 
 
