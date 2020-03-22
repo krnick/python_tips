@@ -5,7 +5,6 @@ List
 1. unpack the variable in list using explicit unpacking
 ========================================================
 
-
 * Don't
 
 .. code-block:: python
