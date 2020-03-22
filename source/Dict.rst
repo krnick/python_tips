@@ -59,3 +59,28 @@ Which is better to show `KeyError`.
     data = dict.get("test", "Not Fount")
 
     print(dict["test"])
+
+2. using setdefault() to initialize a dictionary
+=================================================
+
+It it common that initializing a dictionary before check the existence of a key,
+then create if it doesn't.
+
+* Don't
+
+.. code-block:: python
+
+    dict = {}
+
+    if "key" not in dict:
+        dict["key"] = []
+
+    dict["key"]append("123")
+
+* Good
+
+.. code-block:: python
+
+    dict = {}
+
+    dictionary.setdefault("list", []).append("123")
