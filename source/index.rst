@@ -12,6 +12,7 @@ be used during development.
    Decorator
    Exception
    Function
+   Set
    Lambda
    List
    Loop

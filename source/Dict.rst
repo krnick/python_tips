@@ -2,6 +2,15 @@
 Dict
 =====
 
+Pros:
+
+    speed on find, insert
+
+Cons:
+
+    memory
+
+
 
 1. Use defaultdict() to initialize dict keys
 =============================================
@@ -84,3 +93,21 @@ then create if it doesn't.
     dict = {}
 
     dictionary.setdefault("list", []).append("123")
+
+3. speed up your `in` query in dict
+
+dict.keys will make dict into list, which is slower than dictionary.
+
+* Don't
+
+.. code-block:: python
+
+    if "some_thing" not in dict.keys():
+        print("not found")
+
+* Good
+
+.. code-block:: python
+
+    if "some_thing" not in dict:
+        print("not found")

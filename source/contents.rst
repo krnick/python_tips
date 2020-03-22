@@ -9,6 +9,7 @@ Python tips!
    Decorator
    Exception
    Function
+   Set
    Lambda
    List
    Loop

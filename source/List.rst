@@ -2,6 +2,16 @@
 List
 ====
 
+Pros:
+
+    memory
+
+
+Cons:
+
+    speed on find, insert
+
+
 1. unpack the variable in list using explicit unpacking
 ========================================================
 
