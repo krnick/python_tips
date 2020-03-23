@@ -5,12 +5,14 @@ Python tips!
    :maxdepth: 2
    :caption: Contents:
 
+   Boolean
    Class
    Decorator
    Exception
    Function
    Import
    Set
+   Security
    Lambda
    List
    Loop

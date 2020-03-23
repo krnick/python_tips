@@ -15,6 +15,7 @@ be used during development.
    Function
    Import
    Set
+   Security
    Lambda
    List
    Loop

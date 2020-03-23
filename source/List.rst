@@ -56,3 +56,11 @@ Cons:
 
     for numbers_value, letters_value in zip(numbers, letters):
         print(numbers_value, letters_value)
+
+3. Use list comprehension instead of `map()`.
+================================================
+
+.. code-block:: python
+
+    values = [1, 2, 3]
+    doubles = [x * 2 for x in values]
