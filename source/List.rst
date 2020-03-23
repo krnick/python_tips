@@ -32,3 +32,27 @@ Cons:
     number_list = [1,2,3]
 
     hello, world, hey = number_list
+
+
+2. Using zip() to iterate over a pair of lists.
+================================================
+
+* Don't
+
+.. code-block:: python
+
+    numbers = [1, 2, 3]
+    letters = ["A", "B", "C"]
+
+    for index in range(len(numbers)):
+        print(numbers[index], letters[index])
+
+* Good
+
+.. code-block:: python
+
+    numbers = [1, 2, 3]
+    letters = ["A", "B", "C"]
+
+    for numbers_value, letters_value in zip(numbers, letters):
+        print(numbers_value, letters_value)

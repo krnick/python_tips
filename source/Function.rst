@@ -31,3 +31,20 @@ Function
 3. Do not use `global` statement.
 =================================
 
+
+
+4. Return more than one result using nameturple.
+=================================================
+
+
+.. code-block:: python
+
+    from collections import namedtuple
+
+    def fun():
+        name = namedtuple("name", ["first", "middle", "last"])
+        return name("nick", "sung", "hello")
+
+    test_name = fun()
+
+    print(test_name.first, test_name.middle, test_name.last)
