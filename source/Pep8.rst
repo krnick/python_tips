@@ -56,3 +56,13 @@ PEP8
     import types
 
     if isinstance(c, types.ListType)
+
+
+5. Only use the `is` operator to check the exact identity of two references.
+=============================================================================
+
+.. code-block:: python
+
+    if some_list is None:
+        do_somthing_with_the_list()
+
