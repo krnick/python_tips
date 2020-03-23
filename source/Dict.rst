@@ -94,7 +94,8 @@ then create if it doesn't.
 
     dictionary.setdefault("list", []).append("123")
 
-3. speed up your `in` query in dict
+3. speed up your `in` query in dict.
+====================================
 
 dict.keys will make dict into list, which is slower than dictionary.
 
@@ -111,3 +112,16 @@ dict.keys will make dict into list, which is slower than dictionary.
 
     if "some_thing" not in dict:
         print("not found")
+
+4. using dict keys when formatting strings.
+==========================================
+
+
+.. code-block:: python
+
+    person = {
+        'first':'Tobin',
+        'last': 'Brown',
+        'age':20
+    }
+    print('{first} {last} is {age} years old'.format(**person))
