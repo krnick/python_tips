@@ -10,6 +10,7 @@ Exception
 * Don't
 
 .. code-block:: python
+
     try:
         5/0
     except Exception as e:
@@ -20,6 +21,7 @@ Exception
 * Good
 
 .. code-block:: python
+
     try:
         5/0
     except ZeroDivisionError as e:
