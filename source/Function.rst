@@ -23,3 +23,11 @@ Function
             value = []
 
         value.append(3)
+
+2. Do not return more than one variable type from function call.
+================================================================
+
+
+3. Do not use `global` statement.
+=================================
+

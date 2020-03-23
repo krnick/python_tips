@@ -2,8 +2,8 @@
 Class
 =====
 
-Don't access the private attributes from outside.
-=================================================
+1. Don't access the private attributes from outside.
+====================================================
 
 .. code-block:: python
 
@@ -53,3 +53,8 @@ When a method is not preceded by the @staticmethod or @classmethod decorators an
 5. Add the @staticmethod decorator before the static method
 
 6. Add the @classmethod decorator before the class method
+
+
+3. Do not dynamically creating variable.
+=========================================
+
