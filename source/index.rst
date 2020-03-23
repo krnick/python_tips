@@ -8,6 +8,7 @@ be used during development.
    :maxdepth: 2
    :caption: Contents:
 
+   Boolean
    Class
    Decorator
    Exception
@@ -17,6 +18,7 @@ be used during development.
    Lambda
    List
    Loop
+   None
    Pep8
    With
 
