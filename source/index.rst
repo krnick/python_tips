@@ -21,6 +21,7 @@ be used during development.
    Loop
    None
    Pep8
+   Performance
    With
 
 

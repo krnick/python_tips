@@ -18,6 +18,7 @@ Python tips!
    Loop
    None
    Pep8
+   Performance
    With
 
 Indices and tables
