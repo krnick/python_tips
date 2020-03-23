@@ -66,3 +66,17 @@ PEP8
     if some_list is None:
         do_somthing_with_the_list()
 
+6. Duck Type
+=============
+
+In Python, it will not check the type before execute, and also python don't recommand to
+do that, for example below:
+
+.. code-block:: python
+
+
+    sorted([1,2,3])
+
+    sorted({1,2,3})
+
+    sorted({"k1":1, "k2":2, "k3":3})
