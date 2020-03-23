@@ -38,3 +38,21 @@ PEP8
 .. code-block:: python
 
     if some:
+
+4. Type comparison.
+===================
+
+
+* Don't
+
+.. code-block:: python
+
+    if type(c) is type type(a):
+
+* Good
+
+.. code-block:: python
+
+    import types
+
+    if isinstance(c, types.ListType)
