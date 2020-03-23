@@ -56,3 +56,26 @@ use a set or dictionary
     # Memory efficient.
     for key, value in d.iteritems():
         print("{0} = {1}".format(key, value))
+
+
+3. String Concatenation.
+========================
+
+* Don't
+
+string in Python are immutable, so using `+` to do string concatenation will lead to generate
+a new memory space to store the new string after `+` operation.
+
+.. code-block:: python
+
+    s = ""
+    for substring in list:
+        s += substring
+
+* Good
+
+.. code-block:: python
+
+    s = "".join(slist)
+
+    # of using f-string
