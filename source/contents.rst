@@ -9,11 +9,13 @@ Python tips!
    Decorator
    Exception
    Function
+   Import
    Set
    Lambda
    List
    Loop
    Pep8
+   With
 
 Indices and tables
 ==================
