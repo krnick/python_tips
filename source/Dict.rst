@@ -125,3 +125,18 @@ dict.keys will make dict into list, which is slower than dictionary.
         'age':20
     }
     print('{first} {last} is {age} years old'.format(**person))
+
+5.  initialization on Dict.
+============================
+
+* Dont't
+
+.. code-block:: python
+
+    a = dict()
+
+* Good
+
+.. code-block:: python
+
+    a = {}
