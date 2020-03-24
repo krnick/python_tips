@@ -64,3 +64,39 @@ Cons:
 
     values = [1, 2, 3]
     doubles = [x * 2 for x in values]
+
+
+4. Check for the empty list.
+============================
+
+* Dont'
+
+.. code-block:: python
+
+    if len(a_list) == 0:
+
+    if a_list == []:
+
+* Good
+
+.. code-block:: python
+
+    if not a_list:
+
+
+5.  initialization on list.
+============================
+
+[] is faster than list().
+
+* Dont't
+
+.. code-block:: python
+
+    a = list()
+
+* Good
+
+.. code-block:: python
+
+    a = []
