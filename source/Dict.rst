@@ -131,6 +131,8 @@ dict.keys will make dict into list, which is slower than dictionary.
 
 * Dont't
 
+dict() function call is slower than call {} directly.
+
 .. code-block:: python
 
     a = dict()
